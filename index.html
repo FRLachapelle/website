@@ -1,27 +1,56 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ressources pour les acheteurs</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-        h1, h2 { color: #2F4F4F; }
-        a { color: #1E90FF; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ressources pour les acheteurs</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+            h1, h2 { color: #2F4F4F; }
+            a { color: #1E90FF; text-decoration: none; }
+            a:hover { text-decoration: underline; }
+            h1 { margin-bottom: 0; } /* Enlever l'espace sous le titre */
+            .subtitle { margin-top: 0; } /* Assure qu'il n'y a pas de marge avant le sous-titre */
+        </style>
+    </head>
 <body>
 
-<h1>Ressources pour les acheteurs</h1>
+
 
 <div class="profile">
 <div>
-    <strong>François-René Lachapelle</strong><br>
-    <span class="subtitle">Courtier immobilier résidentiel chez Proprio Direct</span><br>
-    <a href="https://frlachapelle.com/" target="_blank">https://frlachapelle.com/</a>
+    <h1><a href="https://frlachapelle.com/" target="_blank">François-René Lachapelle</a></h1>
+    <span class="subtitle">Courtier immobilier résidentiel chez Proprio Direct</span><br><br>
 </div>
 </div>
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3PS2Ns3-1s3MY4CVUsjvjZMxlSORJ5OBFsZ4du1JACrTAparsLTOV4chRJ-_tH6ZR8VQZLmsZ2?gv=true',
+      color: '#039BE5',
+      label: 'Prendre rendez-vous',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+
+
+<h1>Ressources pour les acheteurs</h1>
+
+<h2>Mes documents de transation</h2>
+<ul>
+    <li><a href="https://drive.google.com/drive/shared-with-me?q=owner:frl.immobilier%40gmail.com" target="_blank">Google Drive partagé avec vous</a></li>
+</ul>
+
+
 
 <h2>Guides sur le processus d'achat</h2>
 <ul>
@@ -35,6 +64,7 @@
     <li><a href="https://www.multi-prets.com/fr/calculateur-des-frais-de-cloture/" target="_blank">Calculateur des frais de clôture et taxe de bienvenue</a></li>
     <li><a href="https://www.hydroquebec.com/residentiel/espace-clients/demenagement/estimer-couts-residence.html" target="_blank">Estimation des coûts Hydro-Québec</a></li>
     <li><a href="https://www.renoassistance.ca/" target="_blank">Frais de rénovation avec RénoAssistance</a></li>
+    <li><a href="https://soumissionrenovation.ca/fr/blogue/guide-prix-renovations/" target="_blank">Guide de prix des rénovations par SoumissionRenovation.ca</a></li>
 </ul>
 
 <h2>Courtiers hypothécaires</h2>
